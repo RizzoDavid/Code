@@ -44,14 +44,29 @@ footer {
   height: 2.5rem;
 }
 
-* {box-sizing:border-box}
-
-.slideshow {
-  max-width: 1500px;
+.content {
   position: relative;
-  margin: auto;
+  margin-right: 50%;
+
 }
 
-.slides {
-  display: none;
+.content > p {
+  font-family: spartacus, serif;
+  font-weight: 500;
+  font-style: normal;
+  text-indent: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.content > h1 {
+  text-align: center;
+  font-family: worker-3d, serif;
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
 }

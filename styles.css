@@ -64,7 +64,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.img-rext-wrapper {
+.img-text-wrapper {
     position: absolute;
     top: 0;
     display: flex;
@@ -75,4 +75,25 @@ body {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
 }

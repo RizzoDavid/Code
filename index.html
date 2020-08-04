@@ -10,9 +10,10 @@
      <!-- Fonts -->
        <link rel="stylesheet" href="https://use.typekit.net/gxt6usr.css">
       <!-- Stylesheet References -->
-        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="normalize.css"> 
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="app.js">
      
       <!-- Title -->
        <title>David Rizzo</title>
@@ -48,21 +49,25 @@
             </div>
           </div>
         </div>
-        <div class="content-wrapper">
-          <div class="carousel-wrapper">
-            <div class="carousel-slide">
-              <img src="img/Carousel1.png" alt="">
-              <img src="img/Carousel2.png" alt="">
-              <img src="img/Carousel3.png" alt="">
-              <img src="img/Carousel4.png" alt="">
-              <img src="img/Carousel5.png" alt="">
-              <img src="img/Carousel6.png" alt="">
-              <img src="img/Carousel7.png" alt="">
-            </div>
-          </div>
-        </div>
-        <button class="prevBtn">Prev</button>
-        <button class="nextBtn">Next</button>
       </div>
+      <div class="content-wrapper">
+        <div class="home-wrapper">
+        <div class="carousel-wrapper">
+          <div class="carousel-slide">
+            <img src="img/Carousel7.png" id="lastClone" alt="">
+            <img src="img/Carousel1.png" alt="">
+            <img src="img/Carousel2.png" alt="">
+            <img src="img/Carousel3.png" alt="">
+            <img src="img/Carousel4.png" alt="">
+            <img src="img/Carousel5.png" alt="">
+            <img src="img/Carousel6.png" alt="">
+            <img src="img/Carousel7.png" alt=""> 
+            <img src="img/Carousel1.png" id="firstClone" alt="">
+          </div>
+          
+        </div>
+      </div>
+      <button id="prevBtn">Prev</button>
+      <button id="nextBtn">Next</button>
     </body>
   </html>

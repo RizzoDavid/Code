@@ -1,0 +1,1 @@
+These are all the shell scipts that I have created in class. They are either class assignments/tutorials or they are ones created for homework. 

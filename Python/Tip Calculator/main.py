@@ -12,7 +12,8 @@ tip_percent = float(input("What percentage would you like to tip? i.e. 10, 15, 2
 #Math
 tip = (tip_percent / 100) + 1
 total = "%0.2f" % ((bill / people) * tip) #"0.2f" % x ensures that ther are always 2 decimal places. 
+tip_amount = "%0.2f" % (float(total) - (bill / people)) 
 
 # Print
-print(f"Each person should pay ${total}.")
+print(f"Each person should pay ${total}. The tip is ${tip_amount} per person.")
 

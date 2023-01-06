@@ -11,7 +11,7 @@ weightm = weight_fl * 0.45359237
 
 # BMI Calculation
 
-bmi = weightm / heightm ** 2
+bmi = round(weightm / heightm ** 2)
 
 #Print BMI
 

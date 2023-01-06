@@ -7,7 +7,7 @@ print(welcome_message)
 # Input information
 bill = float(input("What is the total cost of the bill? ").strip('$')) #.strip('$') will remove the $ from the input. 
 people = float(input("How many people are splitting the bill? "))
-tip_percent = float(input("What percentage would you like to tip? i.e. 10, 15, 20 ").strip('$%')) #.strip('%') will remove the % from the input.
+tip_percent = float(input("What percentage would you like to tip? i.e. 10, 15, 20 ").strip('%')) #.strip('%') will remove the % from the input.
 
 #Math
 tip = (tip_percent / 100) + 1
